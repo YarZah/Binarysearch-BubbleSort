@@ -10,7 +10,7 @@ public class BubbleSort {
 
             for (int j = 0; j < n - 1 - i; j++) {
                 if (array[j] > array[j + 1]) {
-                    // Обмін елементів
+
                     int temp = array[j];
                     array[j] = array[j + 1];
                     array[j + 1] = temp;

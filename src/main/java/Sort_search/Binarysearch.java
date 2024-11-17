@@ -8,17 +8,17 @@ public class Binarysearch {
         while (left <= right) {
             int half = left + (right - left) / 2;
             if (arr[half] == t) {
-                return half; // Знайдено елемент
+                return half;
             }
 
             if (arr[half] > t) {
-                right = half - 1; // Шукаємо в лівій частині
+                right = half - 1;
             } else {
-                left = half + 1; // Шукаємо в правій частині
+                left = half + 1;
             }
         }
 
-        return -1; // Елемент не знайдено
+        return -1;
     }
 }
 
